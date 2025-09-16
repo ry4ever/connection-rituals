@@ -101,7 +101,7 @@ const Newsletter = () => {
             </div>
             
             <div className="text-center mb-6">
-              <div className="text-5xl font-bold text-gray-900 mb-2">$29</div>
+              <div className="text-5xl font-bold text-gray-900 mb-2">$7.99</div>
               <p className="text-gray-600">One-time purchase • Instant access</p>
             </div>
 
