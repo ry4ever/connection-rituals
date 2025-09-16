@@ -42,7 +42,7 @@ const Newsletter = () => {
     }
 
     // Track purchase attempt
-    trackPurchaseAttempt(email, 'Connection Rituals', 29);
+    trackPurchaseAttempt(email, 'Connection Rituals', 7.99);
 
     setIsLoading(true);
     setError("");
@@ -53,7 +53,7 @@ const Newsletter = () => {
       paymentUrl.searchParams.append('email', email);
       
       // Track redirect to SendOwl
-      trackPaymentRedirect('SendOwl', 'Connection Rituals', 29);
+      trackPaymentRedirect('SendOwl', 'Connection Rituals', 7.99);
       
       // Small delay for better UX and to ensure tracking fires
       await new Promise(resolve => setTimeout(resolve, 500));
